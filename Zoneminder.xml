@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Zoneminder</Name>
+  <Date>2017-04-16</Date>
+  <Project>https://zoneminder.com/</Project>
+  <Repository>dlandon/zoneminder</Repository>
+  <Registry>https://hub.docker.com/r/dlandon/zoneminder/</Registry>
+  <Network>bridge</Network>
+  <Privileged>true</Privileged>
+  <Support>https://forums.lime-technology.com/topic/56632-support-dlandon-zoneminder-130/</Support>
+  <Description>
+     Zoneminder is the top Linux video camera security and surveillance solution. ZoneMinder is intended for use in single or multi-camera video security applications, including commercial or home CCTV, theft prevention and child, family member or home monitoring and other domestic care scenarios such as nanny cam installations. It supports capture, analysis, recording, and monitoring of video data coming from one or more video or network cameras attached to a Linux system. ZoneMinder also support web and semi-automatic control of Pan/Tilt/Zoom cameras using a variety of protocols. It is suitable for use as a DIY home video security system and for commercial or professional video security and surveillance. It can also be integrated into a home automation system via X.10 or other protocols. If you're looking for a low cost CCTV system or a more flexible alternative to cheap DVR systems then why not give ZoneMinder a try?
+  </Description>
+  <Category>HomeAutomation: MediaApp:Video MediaServer:Video Tools:</Category>
+  <WebUI>http://[IP]:[PORT:80]/zm</WebUI>
+  <TemplateURL>https://github.com/dlandon/docker.templates/</TemplateURL>
+  <Icon>http://www.pddesign.com.au/img/blog/home-surveillance/zoneminder-logo-01.png</Icon>
+  <ExtraParams/>
+  <Overview>
+    Zoneminder is the top Linux video camera security and surveillance solution. [br][br]
+    [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
+    [b]Appdata Config Path[/b] - This is where the configuration and library files will reside[br][br]
+    [b]Data Path[/b] - This is where events images/videos will reside[br][br]
+    [b]WebUI Port[/b] - Port used to access Zoneminder[br][br]
+    Change the desired port for access to the Zoneminder WebUI if necessary.  The default port of 8080 might not be appropriate for your system.  Click on 
+    "Show Deployed Host Ports" and confirm you do not have a port conflict with other Docker ports.
+  </Overview>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>8080</HostPort>
+        <ContainerPort>80</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/cache/appdata/Zoneminder</HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir>/mnt/cache/appdata/Zoneminder/data</HostDir>
+      <ContainerDir>/var/cache/zoneminder</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Environment>
+    <Variable>
+      <Value>50%</Value>
+      <Name>SHMEM</Name>
+      <Mode/>
+    </Variable>
+  </Environment>
+  <Config Name="WebUI Port" Target="80" Default="8080" Mode="tcp" Description="Container Port: 80" Type="Port" Display="always" Required="true" Mask="false">8080</Config>
+  <Config Name="Appdata Config Path" Target="/config" Default="/mnt/user/appdata/zoneminder" Mode="rw" Description="Container Path: /config" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/cache/appdata/Zoneminder</Config>
+  <Config Name="Data Path" Target="/var/cache/zoneminder" Default="/mnt/user/zoneminder_data" Mode="rw" Description="Container Path: /var/cache/zoneminder" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/cache/appdata/Zoneminder/data</Config>
+  <Config Name="Shared Memory" Target="SHMEM" Default="50%" Mode="" Description="Container Variable: SHMEM" Type="Variable" Display="advanced-hide" Required="false" Mask="false">50%</Config>
+</Container>
