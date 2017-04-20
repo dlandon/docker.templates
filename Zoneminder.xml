@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>Zoneminder</Name>
-  <Date>2017-04-16</Date>
+  <Date>2017-04-20</Date>
   <Project>https://zoneminder.com/</Project>
-  <Repository>dlandon/zoneminder</Repository>
-  <Registry>https://hub.docker.com/r/dlandon/zoneminder/</Registry>
+  <Repository>dlandon/zoneminder-1.30.2</Repository>
+  <Registry>https://hub.docker.com/r/dlandon/zoneminder-1.30.2/</Registry>
   <Network>bridge</Network>
   <Privileged>true</Privileged>
   <Support>https://forums.lime-technology.com/topic/56632-support-dlandon-zoneminder-130/</Support>
@@ -23,7 +23,11 @@
     [b]Data Path[/b] - This is where events images/videos will reside[br][br]
     [b]WebUI Port[/b] - Port used to access Zoneminder[br][br]
     Change the desired port for access to the Zoneminder WebUI if necessary.  The default port of 8080 might not be appropriate for your system.  Click on 
-    "Show Deployed Host Ports" and confirm you do not have a port conflict with other Docker ports.
+    "Show Deployed Host Ports" and confirm you do not have a port conflict with other Docker ports.[br][br]
+    [b]Versions:[/b] You can upgrade oir downgrade versions at any time by modifying the repository.  The version is appended to the end of the repository in
+	the format of "-1.30.0".  The default repository is the newest version of Zoneminder.  Go to the support forum and read the instructions on upgrading
+	Zoneminder.[br][br]
+	[b]Note: Updating Zoneminder will probably break your current configuration.  Don't update Zoneminder unless you are prepared to start fresh.[/b]
   </Overview>
   <Networking>
     <Mode>bridge</Mode>
@@ -54,6 +58,7 @@
       <Mode/>
     </Variable>
   </Environment>
+  <BaseImage>phusion/baseimage:0.9.20</BaseImage>
   <Config Name="WebUI Port" Target="80" Default="8080" Mode="tcp" Description="Container Port: 80" Type="Port" Display="always" Required="true" Mask="false">8080</Config>
   <Config Name="Appdata Config Path" Target="/config" Default="/mnt/user/appdata/zoneminder" Mode="rw" Description="Container Path: /config" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/cache/appdata/Zoneminder</Config>
   <Config Name="Data Path" Target="/var/cache/zoneminder" Default="/mnt/user/zoneminder_data" Mode="rw" Description="Container Path: /var/cache/zoneminder" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/cache/appdata/Zoneminder/data</Config>
