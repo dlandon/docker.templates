@@ -63,6 +63,7 @@
     </Volume>
   </Data>
   <Environment/>
+  <BaseImage>phusion/baseimage:0.9.20</BaseImage>
   <Config Name="Host Port 1" Target="3483" Default="3483" Mode="tcp" Description="Container Port: 3483" Type="Port" Display="always" Required="true" Mask="false">3483</Config>
   <Config Name="Host Port 2" Target="3483" Default="3483" Mode="udp" Description="Container Port: 3483" Type="Port" Display="always" Required="true" Mask="false">3483</Config>
   <Config Name="Host Port 3" Target="9000" Default="9000" Mode="tcp" Description="Container Port: 9000" Type="Port" Display="always" Required="true" Mask="false">9000</Config>
