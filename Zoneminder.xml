@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>Zoneminder</Name>
-  <Date>2017-04-20</Date>
+  <Date>2017-04-21</Date>
   <Project>https://zoneminder.com/</Project>
   <Repository>dlandon/zoneminder-1.30.2</Repository>
   <Registry>https://hub.docker.com/r/dlandon/zoneminder-1.30.2/</Registry>
@@ -57,10 +57,22 @@
       <Name>SHMEM</Name>
       <Mode/>
     </Variable>
+    <Variable>
+      <Value>99</Value>
+      <Name>PUID</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>100</Value>
+      <Name>PGID</Name>
+      <Mode/>
+    </Variable>
   </Environment>
   <BaseImage>phusion/baseimage:0.9.20</BaseImage>
   <Config Name="WebUI Port" Target="80" Default="8080" Mode="tcp" Description="Container Port: 80" Type="Port" Display="always" Required="true" Mask="false">8080</Config>
+  <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="Container Variable: PUID" Type="Variable" Display="always" Required="false" Mask="false">99</Config>
+  <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="Container Variable: PGID" Type="Variable" Display="always" Required="false" Mask="false">100</Config>
+  <Config Name="Shared Memory" Target="SHMEM" Default="50%" Mode="" Description="Container Variable: SHMEM" Type="Variable" Display="advanced-hide" Required="false" Mask="false">50%</Config>
   <Config Name="Appdata Config Path" Target="/config" Default="/mnt/user/appdata/zoneminder" Mode="rw" Description="Container Path: /config" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/cache/appdata/Zoneminder</Config>
   <Config Name="Data Path" Target="/var/cache/zoneminder" Default="/mnt/user/zoneminder_data" Mode="rw" Description="Container Path: /var/cache/zoneminder" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/cache/appdata/Zoneminder/data</Config>
-  <Config Name="Shared Memory" Target="SHMEM" Default="50%" Mode="" Description="Container Variable: SHMEM" Type="Variable" Display="advanced-hide" Required="false" Mask="false">50%</Config>
 </Container>
