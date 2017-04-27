@@ -5,6 +5,9 @@
   <Project>https://zoneminder.com/</Project>
   <Repository>dlandon/zoneminder-1.30.2</Repository>
   <Registry>https://hub.docker.com/r/dlandon/zoneminder-1.30.2/</Registry>
+  <DonateText>For my retirement.</DonateText>
+  <DonateLink>https://www.paypal.com/us/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=EJGPC7B5CS66E</DonateLink>
+  <DonateImage>https://www.paypalobjects.com/webstatic/en_US/btn/btn_donate_74x21.png</DonateImage>
   <Network>bridge</Network>
   <Privileged>true</Privileged>
   <Support>https://forums.lime-technology.com/topic/56632-support-dlandon-zoneminder-130/</Support>

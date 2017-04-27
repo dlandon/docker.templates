@@ -4,6 +4,9 @@
   <Date>2017-04-24</Date>
   <Repository>dlandon/logitechmediaserver</Repository>
   <Registry>https://registry.hub.docker.com/u/dlandon/logitechmediaserver/</Registry>
+  <DonateText>For my retirement.</DonateText>
+  <DonateLink>https://www.paypal.com/us/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=EJGPC7B5CS66E</DonateLink>
+  <DonateImage>https://www.paypalobjects.com/webstatic/en_US/btn/btn_donate_74x21.png</DonateImage>
   <Network>bridge</Network>
   <Privileged>false</Privileged>
   <Support>https://forums.lime-technology.com/topic/56650-support-dlandon-logitech-media-server/</Support>
