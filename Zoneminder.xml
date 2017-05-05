@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>Zoneminder</Name>
-  <Date>2017-04-29</Date>
+  <Date>2017-05-05</Date>
   <Project>https://zoneminder.com/</Project>
-  <Repository>dlandon/zoneminder-1.30.2</Repository>
-  <Registry>https://hub.docker.com/r/dlandon/zoneminder-1.30.2/</Registry>
+  <Repository>dlandon/zoneminder-1.30.3</Repository>
+  <Registry>https://hub.docker.com/r/dlandon/zoneminder-1.30.3/</Registry>
   <DonateText>For my retirement.</DonateText>
   <DonateLink>https://www.paypal.com/us/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=EJGPC7B5CS66E</DonateLink>
   <DonateImage>https://www.paypalobjects.com/webstatic/en_US/btn/btn_donate_74x21.png</DonateImage>
@@ -30,7 +30,7 @@
     [b]Versions:[/b] You can upgrade oir downgrade versions at any time by modifying the repository.  The version is appended to the end of the repository in
 	the format of "-1.30.0".  The default repository is the newest version of Zoneminder.  Go to the support forum and read the instructions on upgrading
 	Zoneminder.[br][br]
-	[b]Note: Updating Zoneminder will probably break your current configuration.  Don't update Zoneminder unless you are prepared to start fresh.[/b]
+	[b]Note: Updating Zoneminder now updates in place starting with version 1.30.3.[/b]
   </Overview>
   <Networking>
     <Mode>bridge</Mode>
