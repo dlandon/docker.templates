@@ -3,8 +3,8 @@
   <Name>Zoneminder</Name>
   <Date>2017-05-05</Date>
   <Project>https://zoneminder.com/</Project>
-  <Repository>dlandon/zoneminder-1.30.3</Repository>
-  <Registry>https://hub.docker.com/r/dlandon/zoneminder-1.30.3/</Registry>
+  <Repository>dlandon/zoneminder</Repository>
+  <Registry>https://hub.docker.com/r/dlandon/zoneminder/</Registry>
   <DonateText>For my retirement.</DonateText>
   <DonateLink>https://www.paypal.com/us/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=EJGPC7B5CS66E</DonateLink>
   <DonateImage>https://www.paypalobjects.com/webstatic/en_US/btn/btn_donate_74x21.png</DonateImage>
@@ -27,10 +27,6 @@
     [b]WebUI Port[/b] - Port used to access Zoneminder[br][br]
     Change the desired port for access to the Zoneminder WebUI if necessary.  The default port of 8080 might not be appropriate for your system.  Click on 
     "Show Deployed Host Ports" and confirm you do not have a port conflict with other Docker ports.[br][br]
-    [b]Versions:[/b] You can upgrade oir downgrade versions at any time by modifying the repository.  The version is appended to the end of the repository in
-	the format of "-1.30.0".  The default repository is the newest version of Zoneminder.  Go to the support forum and read the instructions on upgrading
-	Zoneminder.[br][br]
-	[b]Note: Updating Zoneminder now updates in place starting with version 1.30.3.[/b]
   </Overview>
   <Networking>
     <Mode>bridge</Mode>
