@@ -19,7 +19,7 @@
   <Category>MediaServer:Music</Category>
   <WebUI>http://[IP]:[PORT:9000]/</WebUI>
   <TemplateURL>https://github.com/dlandon/docker.templates</TemplateURL>
-  <Icon>http://i.imgur.com/PoUuA3k.png</Icon>
+  <Icon>https://github.com/dlandon/docker.templates/raw/master/logitechmediaserver.png</Icon>
   <ExtraParams/>
   <DateInstalled>1492376440</DateInstalled>
   <Description>
