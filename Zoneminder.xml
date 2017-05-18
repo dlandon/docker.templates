@@ -67,7 +67,7 @@
       <Mode/>
     </Variable>
   </Environment>
-  <BaseImage>phusion/baseimage:0.9.20</BaseImage>
+  <BaseImage>phusion/baseimage:0.9.22</BaseImage>
   <Config Name="WebUI Port" Target="80" Default="8080" Mode="tcp" Description="Container Port: 80" Type="Port" Display="always" Required="true" Mask="false">8080</Config>
   <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="Container Variable: PUID" Type="Variable" Display="always" Required="false" Mask="false">99</Config>
   <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="Container Variable: PGID" Type="Variable" Display="always" Required="false" Mask="false">100</Config>
