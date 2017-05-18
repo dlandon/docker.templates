@@ -17,7 +17,7 @@
   <Category>HomeAutomation: MediaApp:Video MediaServer:Video Tools:</Category>
   <WebUI>http://[IP]:[PORT:80]/zm</WebUI>
   <TemplateURL>https://github.com/dlandon/docker.templates/</TemplateURL>
-  <Icon>http://www.pddesign.com.au/img/blog/home-surveillance/zoneminder-logo-01.png</Icon>
+  <Icon>https://github.com/dlandon/docker.templates/raw/master/zoneminder.png</Icon>
   <ExtraParams/>
   <Overview>
     Zoneminder is the top Linux video camera security and surveillance solution. [br][br]
