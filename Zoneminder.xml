@@ -18,6 +18,7 @@
   <WebUI>http://[IP]:[PORT:80]/zm</WebUI>
   <TemplateURL>https://github.com/dlandon/docker.templates/</TemplateURL>
   <Icon>https://github.com/dlandon/docker.templates/raw/master/zoneminder.png</Icon>
+  <ExtraParams>--log-opt max-size=50m --log-opt max-file=1</ExtraParams>
   <Overview>
     Zoneminder is the top Linux video camera security and surveillance solution. [br][br]
     [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
