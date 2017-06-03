@@ -3,6 +3,7 @@
   <Name>ownCloud</Name>
   <Date>2017-06-03</Date>
   <Repository>dlandon/owncloud</Repository>
+  <Project>https://owncloud.org/</Project>
   <Registry>https://registry.hub.docker.com/u/dlandon//owncloud/</Registry>
   <DonateText>For my retirement.</DonateText>
   <DonateLink>https://www.paypal.com/us/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=EJGPC7B5CS66E</DonateLink>
