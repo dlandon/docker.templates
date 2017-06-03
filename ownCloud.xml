@@ -16,7 +16,7 @@
   [b]/config[/b] Where ownCloud should store its config files[br]&#xD;
   [b]/data[/b] Owncloud data folder[br]&#xD;
   </Overview>
-  <Category>Cloud: Network:Other Productivity: Tools: Status:Beta</Category>
+  <Category>Cloud: Network:Other Productivity: Tools:</Category>
   <WebUI>https://[IP]:[PORT:443]/</WebUI>
   <TemplateURL/>
   <Icon>https://github.com/dlandon/docker.templates/raw/master/owncloud.png</Icon>
