@@ -73,5 +73,5 @@
   <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="Container Variable: PUID" Type="Variable" Display="always" Required="false" Mask="false">99</Config>
   <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="Container Variable: PGID" Type="Variable" Display="always" Required="false" Mask="false">100</Config>
   <Config Name="MySQL Password" Target="DB_PASS" Default="owncloud" Mode="" Description="Container Variable: DB_PASS" Type="Variable" Display="always" Required="false" Mask="false">owncloud</Config>
-  <Config Name="AppData Config Path" Target="/config" Default="/mnt/cache/appdata/owncloud" Mode="rw" Description="Container Path: /config" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/cache/appdata/owncloud/config</Config>
+  <Config Name="AppData Config Path" Target="/config" Default="/mnt/cache/appdata/owncloud/config" Mode="rw" Description="Container Path: /config" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/cache/appdata/owncloud/config</Config>
 </Container>
