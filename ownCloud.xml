@@ -40,12 +40,12 @@
   </Networking>
   <Data>
     <Volume>
-      <HostDir>/mnt/cache/appdata/ownCloud/data</HostDir>
+      <HostDir>/mnt/user/appdata/ownCloud/data</HostDir>
       <ContainerDir>/data</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
-    <Volume>
-      <HostDir>/mnt/cache/appdata/ownCloud</HostDir>
+    <Volume type="appdata">
+      <HostDir>/mnt/user/appdata/ownCloud</HostDir>
       <ContainerDir>/config</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
@@ -69,9 +69,9 @@
   </Environment>
   <BaseImage>linuxserver/baseimage</BaseImage>
   <Config Name="WebUI Port" Target="443" Default="443" Mode="tcp" Description="Container Port: 443" Type="Port" Display="always" Required="true" Mask="false">443</Config>
-  <Config Name="Data Path" Target="/data" Default="" Mode="rw" Description="Container Path: /data" Type="Path" Display="always" Required="true" Mask="false">/mnt/cache/appdata/ownCloud/data</Config>
+  <Config Name="Data Path" Target="/data" Default="" Mode="rw" Description="Container Path: /data" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/ownCloud/data</Config>
   <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="Container Variable: PUID" Type="Variable" Display="always" Required="false" Mask="false">99</Config>
   <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="Container Variable: PGID" Type="Variable" Display="always" Required="false" Mask="false">100</Config>
   <Config Name="MySQL Password" Target="DB_PASS" Default="owncloud" Mode="" Description="Container Variable: DB_PASS" Type="Variable" Display="always" Required="false" Mask="false">owncloud</Config>
-  <Config Name="AppData Config Path" Target="/config" Default="" Mode="rw" Description="Container Path: /config" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/cache/appdata/ownCloud</Config>
+  <Config Name="AppData Config Path" Target="/config" Default="" Mode="rw" Description="Container Path: /config" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/user/appdata/ownCloud</Config>
 </Container>

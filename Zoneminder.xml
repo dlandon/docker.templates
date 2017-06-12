@@ -39,13 +39,13 @@
     </Publish>
   </Networking>
   <Data>
-    <Volume>
-      <HostDir>/mnt/cache/appdata/Zoneminder</HostDir>
+    <Volume type="appdata">
+      <HostDir>/mnt/user/appdata/Zoneminder</HostDir>
       <ContainerDir>/config</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
     <Volume>
-      <HostDir>/mnt/cache/appdata/Zoneminder/data</HostDir>
+      <HostDir>/mnt/user/appdata/Zoneminder/data</HostDir>
       <ContainerDir>/var/cache/zoneminder</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
@@ -72,6 +72,6 @@
   <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="Container Variable: PUID" Type="Variable" Display="always" Required="false" Mask="false">99</Config>
   <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="Container Variable: PGID" Type="Variable" Display="always" Required="false" Mask="false">100</Config>
   <Config Name="Shared Memory" Target="SHMEM" Default="50%" Mode="" Description="Container Variable: SHMEM" Type="Variable" Display="advanced-hide" Required="false" Mask="false">50%</Config>
-  <Config Name="Appdata Config Path" Target="/config" Default="/mnt/user/appdata/zoneminder" Mode="rw" Description="Container Path: /config" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/cache/appdata/Zoneminder</Config>
-  <Config Name="Data Path" Target="/var/cache/zoneminder" Default="/mnt/user/zoneminder_data" Mode="rw" Description="Container Path: /var/cache/zoneminder" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/cache/appdata/Zoneminder/data</Config>
+  <Config Name="Appdata Config Path" Target="/config" Default="/mnt/user/appdata/zoneminder" Mode="rw" Description="Container Path: /config" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/user/appdata/Zoneminder</Config>
+  <Config Name="Data Path" Target="/var/cache/zoneminder" Default="/mnt/user/zoneminder_data" Mode="rw" Description="Container Path: /var/cache/zoneminder" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/user/appdata/Zoneminder/data</Config>
 </Container>
