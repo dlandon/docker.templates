@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>ownCloud</Name>
-  <Date>2017-07-23</Date>
+  <Date>2017-08-13</Date>
   <Repository>dlandon/owncloud</Repository>
   <Project>https://owncloud.org/</Project>
   <Registry>https://registry.hub.docker.com/u/dlandon//owncloud/</Registry>
@@ -12,7 +12,7 @@
   <Privileged>false</Privileged>
   <Support>https://forums.lime-technology.com/topic/57801-support-dlandon-owncloud/#comment-566487</Support>
   <Overview>
-  OwnCloud provides universal access to your files via the web, your computer or your mobile devices &#x2014; wherever you are. Mariadb 10.1 is built into the image. Built with php7, mariadb 10.1 and nginx 1.9.10 
+  OwnCloud provides universal access to your files via the web, your computer or your mobile devices &#x2014; wherever you are. Mariadb 10.1 is built into the image. Built with php7, mariadb 10.1 and nginx 1.13.3 
   [br][br][b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
   [b]/config[/b] Where ownCloud should store its config files.[br]
   [b]/data[/b] Where ownCloud should store its data files.[br]
@@ -23,7 +23,7 @@
   <Icon>https://github.com/dlandon/docker.templates/raw/master/owncloud.png</Icon>
   <ExtraParams>--log-opt max-size=50m --log-opt max-file=1</ExtraParams>
   <Description>
-  OwnCloud provides universal access to your files via the web, your computer or your mobile devices &#x2014; wherever you are. Mariadb 10.1 is built into the image. Built with php7, mariadb 10.1 and nginx 1.9.10 
+  OwnCloud provides universal access to your files via the web, your computer or your mobile devices &#x2014; wherever you are. Mariadb 10.1 is built into the image. Built with php7, mariadb 10.1 and nginx 1.13.3 
   [br][br][b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
   [b]/config[/b] Where ownCloud should store its config files.[br]
   [b]/data[/b] Where ownCloud should store its data files.[br]
