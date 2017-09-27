@@ -18,7 +18,7 @@
     To log into the WebUI:[br]
     User: vintage[br]
     Password: computer[br][br]
-    You will have the use the command 'sudo ./cpm' to run the simulator with root privileges.[br][br]
+    You will have to use the command 'sudo ./cpm' to run the simulator with root privileges.[br][br]
   </Overview>
   <Category>Tools:Other</Category>
   <WebUI>https://[IP]:[PORT:4200]/</WebUI>
