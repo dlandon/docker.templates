@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>ownCloud</Name>
-  <Date>2017-09-24</Date>
+  <Date>2017-11-30</Date>
   <Repository>dlandon/owncloud</Repository>
   <Project>https://owncloud.org/</Project>
   <Registry>https://registry.hub.docker.com/u/dlandon//owncloud/</Registry>
@@ -15,7 +15,8 @@
   OwnCloud provides universal access to your files via the web, your computer or your mobile devices &#x2014; wherever you are. Mariadb 10.1 is built into the image. Built with php7, mariadb 10.1 and nginx 1.13.3 
   [br][br][b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
   [b]/config[/b] Where ownCloud should store its config files.[br]
-  [b]/data[/b] Where ownCloud should store its data files.[br]
+  [b]/data[/b] Where ownCloud should store its data files.[br][br]
+  [b]Note:[/b] Set Network to br0 and assign a static IP address.[br]
   </Overview>
   <Category>Cloud: Network:Other Productivity: Tools:</Category>
   <WebUI>https://[IP]:[PORT:443]/</WebUI>
@@ -26,7 +27,8 @@
   OwnCloud provides universal access to your files via the web, your computer or your mobile devices &#x2014; wherever you are. Mariadb 10.1 is built into the image. Built with php7, mariadb 10.1 and nginx 1.13.3 
   [br][br][b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
   [b]/config[/b] Where ownCloud should store its config files.[br]
-  [b]/data[/b] Where ownCloud should store its data files.[br]
+  [b]/data[/b] Where ownCloud should store its data files.[br][br]
+  [b]Note:[/b] Set Network to br0 and assign a static IP address.[br]
   </Description>
   <Networking>
     <Mode>bridge</Mode>
