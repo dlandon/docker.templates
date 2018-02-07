@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>Zoneminder</Name>
-  <Date>2018-02-04</Date>
+  <Date>2018-02-06</Date>
   <Project>https://zoneminder.com/</Project>
   <Repository>dlandon/zoneminder</Repository>
   <Registry>https://hub.docker.com/r/dlandon/zoneminder/</Registry>
@@ -26,6 +26,8 @@
     [b]Data Path[/b] - This is where events images/videos will reside[br][br]
     [b]WebUI Port[/b] - Port used to access Zoneminder.
     Change the desired port for access to the Zoneminder WebUI if necessary.  The default port of 8080 might not be appropriate for your system.[br][br]
+    [b]Secure WebUI Port[/b] - Port used to access Zoneminder using ssl security.
+    Change the desired port for access to the Zoneminder WebUI if necessary.  The default port of 8443 might not be appropriate for your system.[br][br]
     [b]zmNinja Event Notification Server Port[/b] - Port used for zmNinja events to iOS and Android devices.
     Change the desired port for the zmNinja Event Notification Server if necessary.  The default port of 9000 might not be appropriate for your system.[br][br]
 	Click on "Show Deployed Host Ports" and confirm you do not have a port conflict with other Docker ports.[br][br]
@@ -36,6 +38,11 @@
       <Port>
         <HostPort>8080</HostPort>
         <ContainerPort>80</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>8443</HostPort>
+        <ContainerPort>443</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
       <Port>
@@ -76,6 +83,7 @@
   </Environment>
   <BaseImage>phusion/baseimage:0.9.22</BaseImage>
   <Config Name="WebUI Port" Target="80" Default="8080" Mode="tcp" Description="Container Port: 80" Type="Port" Display="always" Required="true" Mask="false">8080</Config>
+  <Config Name="Secure WebUI Port" Target="443" Default="8443" Mode="tcp" Description="Container Port: 443" Type="Port" Display="always" Required="true" Mask="false">8443</Config>
   <Config Name="zmNinja Event Notification Server Port" Target="9000" Default="9000" Mode="tcp" Description="Continer Port: 9000" Type="Port" Display="always" Required="true" Mask="false">9000</Config>
   <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="Container Variable: PUID" Type="Variable" Display="always" Required="false" Mask="false">99</Config>
   <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="Container Variable: PGID" Type="Variable" Display="always" Required="false" Mask="false">100</Config>
