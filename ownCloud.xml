@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>ownCloud</Name>
-  <Date>2018-05-12</Date>
+  <Date>2018-08-11</Date>
   <Repository>dlandon/owncloud</Repository>
   <Project>https://owncloud.org/</Project>
   <Registry>https://registry.hub.docker.com/u/dlandon//owncloud/</Registry>

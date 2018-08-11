@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>Z80Pack</Name>
-  <Date>2018-05-13</Date>
+  <Date>2018-08-11</Date>
   <Repository>dlandon/z80pack</Repository>
   <Project>http://www.autometer.de/unix4fun/z80pack/index.html</Project>
   <Registry>https://registry.hub.docker.com/u/dlandon/z80pack/</Registry>

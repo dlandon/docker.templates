@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>LogitechMediaServer</Name>
-  <Date>2018-05-13</Date>
+  <Date>2018-08-11</Date>
   <Repository>dlandon/logitechmediaserver</Repository>
   <Registry>https://registry.hub.docker.com/u/dlandon/logitechmediaserver/</Registry>
   <DonateText>For my retirement.</DonateText>
