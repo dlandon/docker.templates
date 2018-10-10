@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>Zoneminder</Name>
-  <Date>2018-05-13</Date>
+  <Date>2018-10-10</Date>
   <Project>https://zoneminder.com/</Project>
   <Repository>dlandon/zoneminder</Repository>
   <Registry>https://hub.docker.com/r/dlandon/zoneminder/</Registry>
@@ -81,7 +81,7 @@
       <Mode/>
     </Variable>
   </Environment>
-  <BaseImage>phusion/baseimage:0.9.22</BaseImage>
+  <BaseImage>phusion/baseimage:0.10.0</BaseImage>
   <Config Name="WebUI Port" Target="80" Default="8080" Mode="tcp" Description="Container Port: 80" Type="Port" Display="always" Required="true" Mask="false">8080</Config>
   <Config Name="Secure WebUI Port" Target="443" Default="8443" Mode="tcp" Description="Container Port: 443" Type="Port" Display="always" Required="true" Mask="false">8443</Config>
   <Config Name="zmNinja Event Notification Server Port" Target="9000" Default="9000" Mode="tcp" Description="Continer Port: 9000" Type="Port" Display="always" Required="true" Mask="false">9000</Config>
