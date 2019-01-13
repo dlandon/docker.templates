@@ -9,7 +9,7 @@
   <DonateLink>https://www.paypal.com/us/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=EJGPC7B5CS66E</DonateLink>
   <DonateImage>https://www.paypalobjects.com/webstatic/en_US/btn/btn_donate_74x21.png</DonateImage>
   <Network>bridge</Network>
-  <Privileged>false</Privileged>
+  <Privileged>true</Privileged>
   <Support>https://forums.lime-technology.com/topic/57801-support-dlandon-owncloud/#comment-566487</Support>
   <Overview>
   OwnCloud provides universal access to your files via the web, your computer or your mobile devices &#x2014; wherever you are. Mariadb is built into the image. Built with php 7.1, mariadb 10.3 and nginx 1.15 
