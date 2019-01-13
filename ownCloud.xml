@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>ownCloud</Name>
-  <Date>2018-10-26</Date>
+  <Date>2019-01-12</Date>
   <Repository>dlandon/owncloud</Repository>
   <Project>https://owncloud.org/</Project>
   <Registry>https://registry.hub.docker.com/u/dlandon//owncloud/</Registry>
@@ -22,7 +22,7 @@
   <WebUI>https://[IP]:[PORT:443]/</WebUI>
   <TemplateURL/>
   <Icon>https://github.com/dlandon/docker.templates/raw/master/owncloud.png</Icon>
-  <ExtraParams>--log-opt max-size=50m --log-opt max-file=1</ExtraParams>
+  <ExtraParams>--log-opt max-size=50m --log-opt max-file=1 --sysctl=net.core.somaxconn=511</ExtraParams>
   <Description>
   OwnCloud provides universal access to your files via the web, your computer or your mobile devices &#x2014; wherever you are. Mariadb is built into the image. Built with php 7.1, mariadb 10.3 and nginx 1.15 
   [br][br][b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
