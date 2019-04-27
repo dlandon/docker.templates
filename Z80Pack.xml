@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>Z80Pack</Name>
-  <Date>2019-01-31</Date>
+  <Date>2019-04-27</Date>
   <Repository>dlandon/z80pack</Repository>
   <Project>http://www.autometer.de/unix4fun/z80pack/index.html</Project>
   <Registry>https://registry.hub.docker.com/u/dlandon/z80pack/</Registry>
@@ -9,6 +9,7 @@
   <DonateLink>https://www.paypal.com/us/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=EJGPC7B5CS66E</DonateLink>
   <DonateImage>https://www.paypalobjects.com/webstatic/en_US/btn/btn_donate_74x21.png</DonateImage>
   <Network>bridge</Network>
+  <Shell>bash</Shell>
   <Privileged>false</Privileged>
   <Support>https://forums.lime-technology.com/topic/58756-support-z80pack-vintage-computing-in-a-docker-cpm-and-mpm/#comment-576460</Support>
   <Overview>

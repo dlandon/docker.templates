@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>ownCloud</Name>
-  <Date>2019-01-12</Date>
+  <Date>2019-04-27</Date>
   <Repository>dlandon/owncloud</Repository>
   <Project>https://owncloud.org/</Project>
   <Registry>https://registry.hub.docker.com/u/dlandon//owncloud/</Registry>
@@ -9,6 +9,7 @@
   <DonateLink>https://www.paypal.com/us/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=EJGPC7B5CS66E</DonateLink>
   <DonateImage>https://www.paypalobjects.com/webstatic/en_US/btn/btn_donate_74x21.png</DonateImage>
   <Network>bridge</Network>
+  <Shell>bash</Shell>
   <Privileged>true</Privileged>
   <Support>https://forums.lime-technology.com/topic/57801-support-dlandon-owncloud/#comment-566487</Support>
   <Overview>
@@ -28,7 +29,7 @@
   [br][br][b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
   [b]/config[/b] Where ownCloud should store its config files.[br]
   [b]/data[/b] Where ownCloud should store its data files.[br][br]
-  [b]Note:[/b] Set Network to br0 and assign a static IP address.[br]
+  [b]Note:[/b] Set Network to Custom:br0 and assign a static IP address.[br]
   </Description>
   <Networking>
     <Mode>bridge</Mode>

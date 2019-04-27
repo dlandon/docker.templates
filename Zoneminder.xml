@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>Zoneminder</Name>
-  <Date>2018-04-26</Date>
+  <Date>2018-04-27</Date>
   <Project>https://zoneminder.com/</Project>
   <Repository>dlandon/zoneminder</Repository>
   <Registry>https://hub.docker.com/r/dlandon/zoneminder/</Registry>
@@ -9,6 +9,7 @@
   <DonateLink>https://www.paypal.com/us/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=EJGPC7B5CS66E</DonateLink>
   <DonateImage>https://www.paypalobjects.com/webstatic/en_US/btn/btn_donate_74x21.png</DonateImage>
   <Network>bridge</Network>
+  <Shell>bash</Shell>
   <Privileged>true</Privileged>
   <Support>https://forums.lime-technology.com/topic/56632-support-dlandon-zoneminder-130/</Support>
   <Description>
@@ -24,11 +25,13 @@
     [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
     [b]Appdata Config Path[/b] - This is where the configuration and library files will reside[br][br]
     [b]Data Path[/b] - This is where events images/videos will reside[br][br]
-    [b]WebUI Port[/b] - Port used to access Zoneminder using ssl security.&#xD;
-    Change the desired port for access to the Zoneminder WebUI if necessary.  The default port of 8443 might not be appropriate for your system.[br][br]&#xD;
-    [b]zmNinja Event Notification Server Port[/b] - Port used for zmNinja events to iOS and Android devices.
-    Change the desired port for the zmNinja Event Notification Server if necessary.  The default port of 9000 might not be appropriate for your system.[br][br]
-	Click on "Show Deployed Host Ports" and confirm you do not have a port conflict with other Docker ports.[br][br]
+    [b]WebUI Port[/b] - Port used to access Zoneminder using ssl security.
+    Change the desired port for access to the Zoneminder WebUI if necessary.  The default port of 8443 might not be appropriate for your system.[br][br]
+    [b]zmNinja Event Notification Server Port[/b] - Port used for zmNinja events to iOS and Android devices.  Change the desired port for the zmNinja Event Notification Server if necessary.  The default port of 9000 might not be appropriate for your system.[br][br]
+	[b]zmNinja Event Notification Hook Processing[/b][br]
+	Set INSTALL_HOOK="1" to load packages and run setup.py for hook processing.[br]
+	Set INSTALL_FACE="1" to load the face recognition modules.[br][br]
+	Click on "Show Docker Allocations" and confirm you do not have a port conflict with other Docker ports.[br][br]
   </Overview>
   <Networking>
     <Mode>bridge</Mode>
