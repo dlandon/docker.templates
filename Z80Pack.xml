@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>Z80Pack</Name>
-  <Date>2019-04-27</Date>
+  <Date>2020-01-05</Date>
   <Repository>dlandon/z80pack</Repository>
   <Project>http://www.autometer.de/unix4fun/z80pack/index.html</Project>
   <Registry>https://registry.hub.docker.com/u/dlandon/z80pack/</Registry>
@@ -54,6 +54,7 @@
       <Mode/>
     </Variable>
   </Environment>
+  <BaseImage>phusion/baseimage:0.11</BaseImage>
   <Config Name="WebUI Port" Target="4200" Default="4200" Mode="tcp" Description="Container Port: 4200" Type="Port" Display="always" Required="true" Mask="false">4200</Config>
   <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="Container Variable: PUID" Type="Variable" Display="always" Required="false" Mask="false">99</Config>
   <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="Container Variable: PGID" Type="Variable" Display="always" Required="false" Mask="false">100</Config>
