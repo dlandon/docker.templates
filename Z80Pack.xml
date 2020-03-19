@@ -21,7 +21,7 @@
     Password: computer[br][br]
     You will have to use the command 'sudo ./cpm' to run the simulator with root privileges.[br][br]
   </Overview>
-  <Category>Tools:Other</Category>
+  <Category>Other</Category>
   <WebUI>https://[IP]:[PORT:4200]/</WebUI>
   <TemplateURL>https://github.com/dlandon/docker.templates</TemplateURL>
   <Icon>https://github.com/dlandon/docker.templates/raw/master/z80pack.png</Icon>
