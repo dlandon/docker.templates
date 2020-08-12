@@ -22,8 +22,10 @@
     [b]zmNinja Event Notification Server Port[/b] - Port used for zmNinja events to iOS and Android devices.  Change the desired port for the zmNinja Event Notification Server if necessary.  The default port of 9000 might not be appropriate for your system.[br][br]
 	[b]zmNinja Event Notification Hook Processing[/b][br]
 	Set INSTALL_HOOK="1" to load packages and run setup.py for hook processing.[br]
-	Set INSTALL_TINY_YOLO="1" to download the Tiny Yolo hook processing model.[br]
-	Set INSTALL_YOLO="1" to download the Yolo hook processing model.[br]
+	Set INSTALL_TINY_YOLOV3="1" to download the Tiny Yolo V3 hook processing model.[br]
+	Set INSTALL_YOLOV3="1" to download the Yolo V3 hook processing model.[br]
+	Set INSTALL_TINY_YOLOV4="1" to download the Tiny Yolo V4 hook processing model.[br]
+	Set INSTALL_YOLOV4="1" to download the Yolo V4 hook processing model.[br]
 	Set INSTALL_FACE="1" to load the face recognition modules.[br][br]
 	Click on "Show Docker Allocations" and confirm you do not have a port conflict with other Docker ports.[br][br]
   </Description>
@@ -42,8 +44,10 @@
     [b]zmNinja Event Notification Server Port[/b] - Port used for zmNinja events to iOS and Android devices.  Change the desired port for the zmNinja Event Notification Server if necessary.  The default port of 9000 might not be appropriate for your system.[br][br]
 	[b]zmNinja Event Notification Hook Processing[/b][br]
 	Set INSTALL_HOOK="1" to load packages and run setup.py for hook processing.[br]
-	Set INSTALL_TINY_YOLO="1" to download the Tiny Yolo hook processing model.[br]
-	Set INSTALL_YOLO="1" to download the Yolo hook processing model.[br]
+	Set INSTALL_TINY_YOLOV3="1" to download the Tiny Yolo V3 hook processing model.[br]
+	Set INSTALL_YOLOV3="1" to download the Yolo V3 hook processing model.[br]
+	Set INSTALL_TINY_YOLOV4="1" to download the Tiny Yolo V4 hook processing model.[br]
+	Set INSTALL_YOLOV4="1" to download the Yolo V4 hook processing model.[br]
 	Set INSTALL_FACE="1" to load the face recognition modules.[br][br]
 	Click on "Show Docker Allocations" and confirm you do not have a port conflict with other Docker ports.[br][br]
   </Overview>
@@ -117,8 +121,10 @@
   <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="Container Variable: PUID" Type="Variable" Display="always" Required="false" Mask="false">99</Config>
   <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="Container Variable: PGID" Type="Variable" Display="always" Required="false" Mask="false">100</Config>
   <Config Name="Install Hook Processing" Target="INSTALL_HOOK" Default="0" Mode="" Description="Container Variable: INSTALL_HOOK" Type="Variable" Display="always" Required="false" Mask="false">0</Config>
-  <Config Name="Install Tiny Yolo model" Target="INSTALL_TINY_YOLO" Default="0" Mode="" Description="Container Variable: INSTALL_TINY_YOLO" Type="Variable" Display="always" Required="false" Mask="false">0</Config>
-  <Config Name="Install Yolo Model" Target="INSTALL_YOLO" Default="0" Mode="" Description="Container Variable: INSTALL_YOLO" Type="Variable" Display="always" Required="false" Mask="false">0</Config>
+  <Config Name="Install Tiny Yolo V3model" Target="INSTALL_TINY_YOLOV3" Default="0" Mode="" Description="Container Variable: INSTALL_TINY_YOLOV3" Type="Variable" Display="always" Required="false" Mask="false">0</Config>
+  <Config Name="Install Yolo V3 Model" Target="INSTALL_YOLOV3" Default="0" Mode="" Description="Container Variable: INSTALL_YOLOV3" Type="Variable" Display="always" Required="false" Mask="false">0</Config>
+  <Config Name="Install Tiny Yolo V4 model" Target="INSTALL_TINY_YOLOV4" Default="0" Mode="" Description="Container Variable: INSTALL_TINY_YOLOV4" Type="Variable" Display="always" Required="false" Mask="false">0</Config>
+  <Config Name="Install Yolo V4 Model" Target="INSTALL_YOLOV4" Default="0" Mode="" Description="Container Variable: INSTALL_YOLOV4" Type="Variable" Display="always" Required="false" Mask="false">0</Config>
   <Config Name="Install Face Recognition" Target="INSTALL_FACE" Default="0" Mode="" Description="Container Variable: INSTALL_FACE" Type="Variable" Display="always" Required="false" Mask="false">0</Config>
   <Config Name="Shared Memory" Target="SHMEM" Default="50%" Mode="" Description="Container Variable: SHMEM" Type="Variable" Display="advanced-hide" Required="false" Mask="false">50%</Config>
   <Config Name="Appdata Config Path" Target="/config" Default="/mnt/cache/appdata/Zoneminder" Mode="rw" Description="Container Path: /config" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/cache/appdata/Zoneminder</Config>
