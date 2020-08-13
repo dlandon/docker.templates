@@ -121,7 +121,7 @@
   <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="Container Variable: PUID" Type="Variable" Display="always" Required="false" Mask="false">99</Config>
   <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="Container Variable: PGID" Type="Variable" Display="always" Required="false" Mask="false">100</Config>
   <Config Name="Install Hook Processing" Target="INSTALL_HOOK" Default="0" Mode="" Description="Container Variable: INSTALL_HOOK" Type="Variable" Display="always" Required="false" Mask="false">0</Config>
-  <Config Name="Install Tiny Yolo V3model" Target="INSTALL_TINY_YOLOV3" Default="0" Mode="" Description="Container Variable: INSTALL_TINY_YOLOV3" Type="Variable" Display="always" Required="false" Mask="false">0</Config>
+  <Config Name="Install Tiny Yolo V3 model" Target="INSTALL_TINY_YOLOV3" Default="0" Mode="" Description="Container Variable: INSTALL_TINY_YOLOV3" Type="Variable" Display="always" Required="false" Mask="false">0</Config>
   <Config Name="Install Yolo V3 Model" Target="INSTALL_YOLOV3" Default="0" Mode="" Description="Container Variable: INSTALL_YOLOV3" Type="Variable" Display="always" Required="false" Mask="false">0</Config>
   <Config Name="Install Tiny Yolo V4 model" Target="INSTALL_TINY_YOLOV4" Default="0" Mode="" Description="Container Variable: INSTALL_TINY_YOLOV4" Type="Variable" Display="always" Required="false" Mask="false">0</Config>
   <Config Name="Install Yolo V4 Model" Target="INSTALL_YOLOV4" Default="0" Mode="" Description="Container Variable: INSTALL_YOLOV4" Type="Variable" Display="always" Required="false" Mask="false">0</Config>
