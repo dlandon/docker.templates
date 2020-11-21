@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+<Plugin>True</Plugin>
+<PluginURL>https://github.com/dlandon/recycle.bin/raw/master/recycle.bin.plg</PluginURL>
+<PluginAuthor>dlandon</PluginAuthor>
+<Beta>False</Beta>
+<MinVer>6.4</MinVer>
+<Category>Tools:</Category>
+<Date>2020-06-23</Date>
+<License>GPL Licensed</License>
+<multiLanguage>true</multiLanguage>
+<Name>Recycle Bin</Name>
+<Description>
+This plugin adds a per share .Recycle.Bin folder to hold samba deleted files until you empty the trash either manually or remove aged files on a schedule.  Shares that are excluded will not have the recycle bin enabled.  A .Recycle.Bin folder is created in each share the first time a file is deleted in the share that you can access by browsing to //Tower/Share/.Recycle.Bin.  You can restore deleted files from the //Tower/Share/.Recycle.Bin.  The User access to the .Recycle.Bin folder is the same as the User share access.  If you remove the plugin all deleted files will be kept in the share .Recycle.Bin folders.  You will have to empty the trash before you remove the plugin if you do not want to use it.
+</Description>
+<Support>http://lime-technology.com/forum/index.php?topic=42729.0</Support>
+<IconFA>trash</IconFA>
+<DonateText>For my retirement.</DonateText>
+<DonateLink>https://www.paypal.com/us/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=EJGPC7B5CS66E</DonateLink>
+<DonateImage>https://www.paypalobjects.com/webstatic/en_US/btn/btn_donate_74x21.png</DonateImage>
+</Containers>

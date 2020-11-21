@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+<Plugin>True</Plugin>
+<PluginURL>https://github.com/dlandon/open.files/raw/master/open.files.plg</PluginURL>
+<PluginAuthor>dlandon</PluginAuthor>
+<Beta>False</Beta>
+<MinVer>6.4</MinVer>
+<Category>Tools:System</Category>
+<Date>2019-01-15</Date>
+<License>GPL Licensed</License>
+<multiLanguage>true</multiLanguage>
+<Name>Open Files</Name>
+<Description>
+This plugin shows any open files on the array that might prevent a clean shutdown.  The plugin web page is installed in 'Tools'.  You can stop all array processes on the open files web page and troubleshoot shutdown problems.  After you stop all array processes, you will see what processes are still holding files open on the array preventing a shutdown.
+</Description>
+<Support>http://lime-technology.com/forum/index.php?topic=42881.0</Support>
+<IconFA>folder-open</IconFA>
+<DonateText>For my retirement.</DonateText>
+<DonateLink>https://www.paypal.com/us/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=EJGPC7B5CS66E</DonateLink>
+<DonateImage>https://www.paypalobjects.com/webstatic/en_US/btn/btn_donate_74x21.png</DonateImage>
+</Containers>

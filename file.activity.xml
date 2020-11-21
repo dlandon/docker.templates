@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+<Plugin>True</Plugin>
+<PluginURL>https://github.com/dlandon/file.activity/raw/master/file.activity.plg</PluginURL>
+<PluginAuthor>dlandon</PluginAuthor>
+<Beta>False</Beta>
+<MinVer>6.4</MinVer>
+<Category>Tools:System</Category>
+<Date>2019-02-10</Date>
+<License>GPL Licensed</License>
+<multiLanguage>true</multiLanguage>
+<Name>File Activity</Name>
+<Description>
+This plugin displays recent write/modify file activity on each disk, UD disks, and the cache in the Array.  It can help to understand why disks are spinning up from write/modify file and directory activity.
+</Description>
+<Support>http://lime-technology.com/forum/index.php?topic=56567.0</Support>
+<IconFA>folder</IconFA>
+<DonateText>For my retirement.</DonateText>
+<DonateLink>https://www.paypal.com/us/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=EJGPC7B5CS66E</DonateLink>
+<DonateImage>https://www.paypalobjects.com/webstatic/en_US/btn/btn_donate_74x21.png</DonateImage>
+</Containers>

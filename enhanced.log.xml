@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+<Plugin>True</Plugin>
+<PluginURL>https://github.com/dlandon/enhanced.log/raw/master/enhanced.log.plg</PluginURL>
+<PluginAuthor>dlandon</PluginAuthor>
+<Beta>False</Beta>
+<MinVer>6.4</MinVer>
+<Category>Tools:System</Category>
+<Date>2019-02-24</Date>
+<License>GPL Licensed</License>
+<Name>Enhanced Log Viewer</Name>
+<Description>
+This plugin enhances the built-in Syslog page to view the system log with highlighted lines.  You can enable or disable event highlighting and set your own colors for each event.  You can add your own search string to highlight in the log.
+</Description>
+<Support>http://lime-technology.com/forum/index.php?topic=44813.0</Support>
+<IconFA>align-left</IconFA>
+<DonateText>For my retirement.</DonateText>
+<DonateLink>https://www.paypal.com/us/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=EJGPC7B5CS66E</DonateLink>
+<DonateImage>https://www.paypalobjects.com/webstatic/en_US/btn/btn_donate_74x21.png</DonateImage>
+</Containers>

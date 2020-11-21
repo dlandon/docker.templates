@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+<Plugin>True</Plugin>
+<PluginURL>https://github.com/dlandon/unassigned.devices/raw/master/unassigned.devices-plus.plg</PluginURL>
+<PluginAuthor>dlandon</PluginAuthor>
+<Beta>False</Beta>
+<MinVer>6.7</MinVer>
+<Category>Tools:System</Category>
+<Date>2020-05-22</Date>
+<License>GPL Licensed</License>
+<multiLanguage>true</multiLanguage>
+<Name>Unassigned Devices Plus (Addon)</Name>
+<Description>
+Enables support in the Unassigned Devices Plugin for HFS+ and exFAT disk formats, and to enable destructive mode.
+</Description>
+<Support>http://lime-technology.com/forum/index.php?topic=45807.0</Support>
+<IconFA>unlock-alt</IconFA>
+<DonateText>For my retirement.</DonateText>
+<DonateLink>https://www.paypal.com/us/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=EJGPC7B5CS66E</DonateLink>
+<DonateImage>https://www.paypalobjects.com/webstatic/en_US/btn/btn_donate_74x21.png</DonateImage>
+</Containers>
