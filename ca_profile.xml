@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maintainer>
+  <Icon>https://github.com/dlandon/docker.templates/raw/master/avatar.png</Icon>
+  <Profile>
+    Developer of the Unassigned Devices (UD) plugin for mounting disks and remote NFS/SMB shares for local access.  Disk devices can be hot plugged and scripts automatically run for backup purposes.  Encrypted disks are supported.
+	Creator of the per share Recycle Bin for deleted files from SMB shares.
+	Also have several other utility plugins to help with tweaking and managing your Unraid server.
+  </Profile>
+  <DonateLink>https://www.paypal.com/us/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=EJGPC7B5CS66E</DonateLink>
+  <DonateText>If you like my work please consider Donating.</DonateText>
+</Maintainer>
