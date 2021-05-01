@@ -6,12 +6,12 @@
 <Beta>False</Beta>
 <MinVer>6.7</MinVer>
 <Category>Tools:System</Category>
-<Date>2020-05-22</Date>
+<Date>2021-05-01</Date>
 <License>GPL Licensed</License>
 <multiLanguage>true</multiLanguage>
 <Name>Unassigned Devices Plus (Addon)</Name>
 <Description>
-Enables support in the Unassigned Devices Plugin for HFS+ and exFAT disk formats, and to enable destructive mode.
+Enables support in the Unassigned Devices Plugin for HFS+, exFAT, and apfs disk formats, and to enable destructive mode.
 </Description>
 <Support>http://lime-technology.com/forum/index.php?topic=45807.0</Support>
 <IconFA>unlock-alt</IconFA>
