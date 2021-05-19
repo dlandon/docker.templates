@@ -4,9 +4,9 @@
 <PluginURL>https://github.com/dlandon/open.files/raw/master/open.files.plg</PluginURL>
 <PluginAuthor>dlandon</PluginAuthor>
 <Beta>False</Beta>
-<MinVer>6.4</MinVer>
+<MinVer>6.7</MinVer>
 <Category>Tools:System</Category>
-<Date>2019-01-15</Date>
+<Date>2021-05-19</Date>
 <License>GPL Licensed</License>
 <multiLanguage>true</multiLanguage>
 <Name>Open Files</Name>
