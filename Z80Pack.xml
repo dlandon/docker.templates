@@ -13,13 +13,13 @@
   <Privileged>false</Privileged>
   <Support>https://forums.lime-technology.com/topic/58756-support-z80pack-vintage-computing-in-a-docker-cpm-and-mpm/#comment-576460</Support>
   <Overview>
-    Z80Pack is an emulator for emulating CP/M 1, CP/M 2, CP/M 3, and MP/M II on Linux.  This is a command line Docker only.  There is a built in Shell in a Box WebGUI that is a command line browser window.  You can also execute bash in the Docker.[br][br]
-    [b][span style='color: #E80000;']Directions:[/span][/b][br][br]
-    [b]/config[/b] : this path is used to store the disk configurations and CP/M and MP/M startup scripts.[br][br]
-    To log into the WebUI:[br]
-    User: vintage[br]
-    Password: computer[br][br]
-    You will have to use the command 'sudo ./cpm' to run the simulator with root privileges.[br][br]
+  Z80Pack is an emulator for emulating CP/M 1, CP/M 2, CP/M 3, and MP/M II on Linux.  This is a command line Docker only.  There is a built in Shell in a Box WebGUI that is a command line browser window.  You can also execute bash in the Docker.[br]
+  Configuration:
+  **/config** - this path is used to store the disk configurations and CP/M and MP/M startup scripts.[br]
+  To log into the WebUI:
+  **User:** vintage
+  **Password:** computer[br]
+  **Note:** You will have to use the command 'sudo ./cpm' to run the simulator with root privileges.
   </Overview>
   <Category>Other</Category>
   <WebUI>https://[IP]:[PORT:4200]/</WebUI>
@@ -27,9 +27,13 @@
   <Icon>https://github.com/dlandon/docker.templates/raw/master/z80pack.png</Icon>
   <ExtraParams>--log-opt max-size=50m --log-opt max-file=1</ExtraParams>
   <Description>
-    Z80Pack is an emulator for emulating CP/M 1, CP/M 2, CP/M 3, and MP/M II on Linux.  This is a command line Docker only.  There is a built in Shell in a Box WebGUI that is a command line browser window.  You can also execute bash in the Docker.[br][br]
-    [b][span style='color: #E80000;']Directions:[/span][/b][br][br]
-    [b]/config[/b] : this path is used to store the disk configurations and CP/M and MP/M startup scripts.[br][br]
+  Z80Pack is an emulator for emulating CP/M 1, CP/M 2, CP/M 3, and MP/M II on Linux.  This is a command line Docker only.  There is a built in Shell in a Box WebGUI that is a command line browser window.  You can also execute bash in the Docker.[br]
+  Configuration:
+  **/config** - this path is used to store the disk configurations and CP/M and MP/M startup scripts.[br]
+  To log into the WebUI:
+  **User:** vintage
+  **Password:** computer[br]
+  **Note:** You will have to use the command 'sudo ./cpm' to run the simulator with root privileges.
   </Description>
   <Networking>
     <Mode>bridge</Mode>

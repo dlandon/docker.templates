@@ -13,11 +13,11 @@
   <Privileged>true</Privileged>
   <Support>https://forums.lime-technology.com/topic/57801-support-dlandon-owncloud/#comment-566487</Support>
   <Overview>
-  OwnCloud provides universal access to your files via the web, your computer or your mobile devices &#x2014; wherever you are. Mariadb is built into the image. Built with php 7.4, mariadb 10.3 and nginx 1.15 
-  [br][br][b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
-  [b]/config[/b] Where ownCloud should store its config files.[br]
-  [b]/data[/b] Where ownCloud should store its data files.[br][br]
-  [b]Note:[/b] Set Network to br0 and assign a static IP address.[br]
+  OwnCloud provides universal access to your files via the web, your computer or your mobile devices &#x2014; wherever you are. Mariadb is built into the image. Built with php 7.3, 7.4, and 7.5 (selectable), mariadb 10.3 and nginx 1.18[br]
+  Configuration
+  **/config** - Where ownCloud should store its config files.
+  **/data** - Where ownCloud should store its data files.[br]
+  **Note:** Set Network to br0 and assign a static IP address.
   </Overview>
   <Category>Cloud: Network:Other Productivity: Tools:</Category>
   <WebUI>https://[IP]:[PORT:443]/</WebUI>
@@ -25,11 +25,11 @@
   <Icon>https://github.com/dlandon/docker.templates/raw/master/owncloud.png</Icon>
   <ExtraParams>--log-opt max-size=50m --log-opt max-file=1 --sysctl=net.core.somaxconn=511</ExtraParams>
   <Description>
-  OwnCloud provides universal access to your files via the web, your computer or your mobile devices &#x2014; wherever you are. Mariadb is built into the image. Built with php 7.4, mariadb 10.3 and nginx 1.15 
-  [br][br][b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
-  [b]/config[/b] Where ownCloud should store its config files.[br]
-  [b]/data[/b] Where ownCloud should store its data files.[br][br]
-  [b]Note:[/b] Set Network to Custom:br0 and assign a static IP address.[br]
+  OwnCloud provides universal access to your files via the web, your computer or your mobile devices &#x2014; wherever you are. Mariadb is built into the image. Built with php 7.4, mariadb 10.3 and nginx 1.18[br]
+  Configuration
+  **/config** - Where ownCloud should store its config files.
+  **/data** - Where ownCloud should store its data files.[br]
+  **Note:** Set Network to Custom:br0 and assign a static IP address.
   </Description>
   <Networking>
     <Mode>bridge</Mode>
