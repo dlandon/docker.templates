@@ -26,10 +26,6 @@
   <ExtraParams>--log-opt max-size=50m --log-opt max-file=1 --sysctl=net.core.somaxconn=511</ExtraParams>
   <Description>
   OwnCloud provides universal access to your files via the web, your computer or your mobile devices &#x2014; wherever you are. Mariadb is built into the image. Built with php 7.4, mariadb 10.3 and nginx 1.18[br]
-  Configuration
-  **/config** - Where ownCloud should store its config files.
-  **/data** - Where ownCloud should store its data files.[br]
-  **Note:** Set Network to Custom:br0 and assign a static IP address.
   </Description>
   <Networking>
     <Mode>bridge</Mode>
