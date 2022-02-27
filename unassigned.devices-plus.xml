@@ -13,7 +13,7 @@
 <Description>
 Enables support in the Unassigned Devices Plugin for HFS+, exFAT, and apfs disk formats, and to enable destructive mode.
 </Description>
-<Support>http://lime-technology.com/forum/index.php?topic=45807.0</Support>
+<Support>https://forums.unraid.net/topic/92462-unassigned-devices-managing-disk-drives-and-remote-shares-outside-of-the-unraid-array/</Support>
 <IconFA>unlink</IconFA>
 <DonateText>For my retirement.</DonateText>
 <DonateLink>https://www.paypal.com/us/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=EJGPC7B5CS66E</DonateLink>
