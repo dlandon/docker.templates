@@ -9,6 +9,7 @@
 <Category>Tools:System</Category>
 <Date>2022-02-27</Date>
 <License>GPL Licensed</License>
+<Requires>Unassigned Devices installed</Requires>
 <multiLanguage>true</multiLanguage>
 <Name>Unassigned Devices Preclear</Name>
 <Description>
