@@ -10,6 +10,7 @@
 <Date>2022-02-27</Date>
 <License>GPL Licensed</License>
 <Requires>Unassigned Devices installed</Requires>
+<RequiresFile>/var/log/plugins/unassigned.devices.plg</RequiresFile>
 <multiLanguage>true</multiLanguage>
 <Name>Unassigned Devices Preclear</Name>
 <Description>

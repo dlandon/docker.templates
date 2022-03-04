@@ -9,6 +9,7 @@
 <Date>2021-12-12</Date>
 <License>GPL Licensed</License>
 <Requires>Unassigned Devices installed</Requires>
+<RequiresFile>/var/log/plugins/unassigned.devices.plg</RequiresFile>
 <multiLanguage>true</multiLanguage>
 <Name>Unassigned Devices Plus (Addon)</Name>
 <Description>
