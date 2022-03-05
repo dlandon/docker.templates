@@ -3,7 +3,7 @@
 <Plugin>True</Plugin>
 <PluginURL>https://github.com/dlandon/unassigned.devices/raw/master/unassigned.devices.preclear.plg</PluginURL>
 <PluginAuthor>dlandon</PluginAuthor>
-<Beta>True</Beta>
+<Beta>False</Beta>
 <MinVer>6.9</MinVer>
 <ExtraSearchTerms>preclear preclear%20disk</ExtraSearchTerms>
 <Category>Tools:System</Category>
