@@ -4,9 +4,9 @@
 <PluginURL>https://github.com/dlandon/unassigned.devices/raw/master/unassigned.devices.plg</PluginURL>
 <PluginAuthor>dlandon</PluginAuthor>
 <Beta>False</Beta>
-<MinVer>6.7</MinVer>
+<MinVer>6.9</MinVer>
 <Category>Tools:System</Category>
-<Date>2022-02-27</Date>
+<Date>2022-05-15</Date>
 <License>GPL Licensed</License>
 <multiLanguage>true</multiLanguage>
 <Name>Unassigned Devices</Name>
