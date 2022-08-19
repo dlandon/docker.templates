@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
 <Plugin>True</Plugin>
-<PluginURL>https://github.com/dlandon/libvirt.hotplug.usb/raw/master/libvirt.hotplug.usb.plg</PluginURL>
+<PluginURL>https://raw.githubusercontent.com/dlandon/libvirt.hotplug.usb/master/libvirt.hotplug.usb.plg</PluginURL>
 <PluginAuthor>dlandon</PluginAuthor>
 <Beta>False</Beta>
 <MinVer>6.4</MinVer>
 <Category>Tools:System</Category>
-<Date>2019-01-14</Date>
+<Date>2022-08-19</Date>
 <License>GPL Licensed</License>
 <multiLanguage>true</multiLanguage>
 <Name>Libvirt Hotplug USB</Name>
