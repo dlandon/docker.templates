@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
 <Plugin>True</Plugin>
-<PluginURL>https://github.com/dlandon/open.files/raw/master/open.files.plg</PluginURL>
+<PluginURL>https://raw.githubusercontent.com/dlandon/open.files/master/open.files.plg</PluginURL>
 <PluginAuthor>dlandon</PluginAuthor>
 <Beta>False</Beta>
 <MinVer>6.7</MinVer>
 <Category>Tools:System</Category>
-<Date>2021-05-19</Date>
+<Date>2022-08-19</Date>
 <License>GPL Licensed</License>
 <multiLanguage>true</multiLanguage>
 <Name>Open Files</Name>

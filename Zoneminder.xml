@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>Zoneminder</Name>
-  <Date>2021-01-08</Date>
+  <Date>2021\2-08-19</Date>
   <Project>https://zoneminder.com/</Project>
   <Repository>dlandon/zoneminder.unraid</Repository>
   <Registry>https://hub.docker.com/r/dlandon/zoneminder.unraid/</Registry>

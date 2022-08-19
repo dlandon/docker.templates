@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
 <Plugin>True</Plugin>
-<PluginURL>https://github.com/dlandon/unassigned.devices/raw/master/unassigned.devices-plus.plg</PluginURL>
+<PluginURL>https://raw.githubusercontent.com/dlandon/unassigned.devices/master/unassigned.devices-plus.plg</PluginURL>
 <PluginAuthor>dlandon</PluginAuthor>
 <Beta>False</Beta>
 <MinVer>6.7</MinVer>
 <Category>Tools:System</Category>
-<Date>2021-12-12</Date>
+<Date>2022-08-19</Date>
 <License>GPL Licensed</License>
 <Requires>Unassigned Devices installed</Requires>
 <RequiresFile>/var/log/plugins/unassigned.devices.plg</RequiresFile>

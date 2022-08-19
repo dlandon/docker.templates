@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
 <Plugin>True</Plugin>
-<PluginURL>https://github.com/dlandon/unassigned.devices/raw/master/unassigned.devices.preclear.plg</PluginURL>
+<PluginURL>https://raw.githubusercontent.com/dlandon/unassigned.devices/master/unassigned.devices.preclear.plg</PluginURL>
 <PluginAuthor>dlandon</PluginAuthor>
 <Beta>False</Beta>
 <MinVer>6.9</MinVer>
 <ExtraSearchTerms>preclear preclear%20disk</ExtraSearchTerms>
 <Category>Tools:System</Category>
-<Date>2022-05-15</Date>
+<Date>2022-08.22</Date>
 <License>GPL Licensed</License>
 <Requires>Unassigned Devices installed</Requires>
 <RequiresFile>/var/log/plugins/unassigned.devices.plg</RequiresFile>

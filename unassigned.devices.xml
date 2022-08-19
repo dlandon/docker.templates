@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
 <Plugin>True</Plugin>
-<PluginURL>https://github.com/dlandon/unassigned.devices/raw/master/unassigned.devices.plg</PluginURL>
+<PluginURL>https://raw.githubusercontent.com/dlandon/unassigned.devices/master/unassigned.devices.plg</PluginURL>
 <PluginAuthor>dlandon</PluginAuthor>
 <Beta>False</Beta>
 <MinVer>6.9</MinVer>

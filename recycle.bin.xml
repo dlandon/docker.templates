@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
 <Plugin>True</Plugin>
-<PluginURL>https://github.com/dlandon/recycle.bin/raw/master/recycle.bin.plg</PluginURL>
+<PluginURL>https://raw.githubusercontent.com/dlandon/recycle.bin/master/recycle.bin.plg</PluginURL>
 <PluginAuthor>dlandon</PluginAuthor>
 <Beta>False</Beta>
 <MinVer>6.7</MinVer>
 <Category>Tools:</Category>
-<Date>2021-05-16</Date>
+<Date>2022-08-19</Date>
 <License>GPL Licensed</License>
 <multiLanguage>true</multiLanguage>
 <Name>Recycle Bin</Name>
