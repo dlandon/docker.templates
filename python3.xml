@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
 <Plugin>True</Plugin>
-<PluginURL>https://raw.githubusercontent.com/dlandon/python3/master/python3.plg</PluginURL>
+<PluginURL>https://raw.githubusercontent.com/dlandon/python3/master/Python3.plg</PluginURL>
 <PluginAuthor>dlandon</PluginAuthor>
 <Beta>False</Beta>
 <MinVer>6.11</MinVer>
@@ -10,7 +10,7 @@
 <License>GPL Licensed</License>
 <multiLanguage>true</multiLanguage>
 <Name>Python3 Package</Name>
-<Icon>https://raw.githubusercontent.com/dlandon/docker.templates/master/python3.png</Icon>
+<Icon>https://raw.githubusercontent.com/dlandon/docker.templates/master/Python3.png</Icon>
 <Description>
 Installs Python 3, PIP, and Python systools packages.
 </Description>
