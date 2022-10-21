@@ -4,9 +4,9 @@
 <PluginURL>https://raw.githubusercontent.com/dlandon/recycle.bin/master/recycle.bin.plg</PluginURL>
 <PluginAuthor>dlandon</PluginAuthor>
 <Beta>False</Beta>
-<MinVer>6.7</MinVer>
+<MinVer>6.9</MinVer>
 <Category>Tools:</Category>
-<Date>2022-08-19</Date>
+<Date>2022-10-21</Date>
 <License>GPL Licensed</License>
 <multiLanguage>true</multiLanguage>
 <Name>Recycle Bin</Name>
