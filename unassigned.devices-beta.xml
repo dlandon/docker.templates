@@ -3,7 +3,7 @@
 <Plugin>True</Plugin>
 <PluginURL>https://raw.githubusercontent.com/dlandon/unassigned.devices/master/unassigned.devices-beta.plg</PluginURL>
 <PluginAuthor>dlandon</PluginAuthor>
-<Beta>False</Beta>
+<Beta>True</Beta>
 <MinVer>6.9</MinVer>
 <Category>Tools:System</Category>
 <Date>2022-12-04</Date>
