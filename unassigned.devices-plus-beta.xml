@@ -11,7 +11,7 @@
 <Requires>Unassigned Devices installed</Requires>
 <RequiresFile>/var/log/plugins/unassigned.devices.plg</RequiresFile>
 <multiLanguage>true</multiLanguage>
-<Name>Unassigned Devices Plus (Addon)</Name>
+<Name>Unassigned Devices Plus Beta (Addon)</Name>
 <Description>
 Enables support in the Unassigned Devices Plugin for HFS+, exFAT, and apfs disk formats, and to enable destructive mode.
 </Description>

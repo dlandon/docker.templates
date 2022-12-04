@@ -12,7 +12,7 @@
 <Requires>Unassigned Devices installed</Requires>
 <RequiresFile>/var/log/plugins/unassigned.devices.plg</RequiresFile>
 <multiLanguage>true</multiLanguage>
-<Name>Unassigned Devices Preclear</Name>
+<Name>Unassigned Devices Preclear Beta</Name>
 <Description>
 Unassigned Devices Preclear is used to exercise and clear disks and prepare them for adding to the array.
 </Description>
