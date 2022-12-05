@@ -8,8 +8,8 @@
 <Category>Tools:System</Category>
 <Date>2022-12-04</Date>
 <License>GPL Licensed</License>
-<Requires>Unassigned Devices installed</Requires>
-<RequiresFile>/var/log/plugins/unassigned.devices.plg</RequiresFile>
+<Requires>Unassigned Devices Beta installed</Requires>
+<RequiresFile>/var/log/plugins/unassigned.devices-beta.plg</RequiresFile>
 <multiLanguage>true</multiLanguage>
 <Name>Unassigned Devices Plus Beta (Addon)</Name>
 <Description>
