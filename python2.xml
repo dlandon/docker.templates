@@ -10,7 +10,7 @@
 <License>GPL Licensed</License>
 <multiLanguage>true</multiLanguage>
 <Name>Python2 Package</Name>
-<Icon>https://raw.githubusercontent.com/dlandon/docker.templates/master/Python2.png</Icon>
+<Icon>https://raw.githubusercontent.com/dlandon/docker.templates/master/python2.png</Icon>
 <Description>
 Installs Python 2 package.
 </Description>

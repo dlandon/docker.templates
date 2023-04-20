@@ -10,7 +10,7 @@
 <License>GPL Licensed</License>
 <multiLanguage>true</multiLanguage>
 <Name>Python3 Package</Name>
-<Icon>https://raw.githubusercontent.com/dlandon/docker.templates/master/Python3.png</Icon>
+<Icon>https://raw.githubusercontent.com/dlandon/docker.templates/master/python3.png</Icon>
 <Description>
 Installs Python 3, PIP, and Python systools packages.
 </Description>
