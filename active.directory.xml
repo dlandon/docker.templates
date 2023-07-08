@@ -5,7 +5,7 @@
 <PluginAuthor>dlandon</PluginAuthor>
 <Beta>True</Beta>
 <MinVer>6.9</MinVer>
-<Category>Network Services:Other</Category>
+<Category>Network:Other</Category>
 <Date>2023-07-07</Date>
 <License>GPL Licensed</License>
 <multiLanguage>true</multiLanguage>
