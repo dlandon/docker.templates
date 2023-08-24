@@ -26,7 +26,7 @@ Configuration
 <Icon>https://github.com/dlandon/docker.templates/raw/master/owncloud.png</Icon>
 <ExtraParams>--log-opt max-size=50m --log-opt max-file=1 --sysctl=net.core.somaxconn=511</ExtraParams>
 <Description>
-OwnCloud provides universal access to your files via the web, your computer or your mobile devices &#x2014; wherever you are. Mariadb is built into the image. Built with php 7.4, mariadb 10.3 and nginx 1.18[br]
+OwnCloud provides universal access to your files via the web, your computer or your mobile devices &#x2014; wherever you are. Mariadb is built into the image. Built with php 7.2, 7.3, and 7.4, mariadb 10.3 and nginx 1.18[br]
 </Description>
 <Networking>
 <Mode>bridge</Mode>
@@ -77,7 +77,7 @@ OwnCloud provides universal access to your files via the web, your computer or y
 <Config Name="Data Path" Target="/data" Default="" Mode="rw" Description="Container Path: /data" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/ownCloud/data</Config>
 <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="Container Variable: PUID" Type="Variable" Display="always" Required="false" Mask="false">99</Config>
 <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="Container Variable: PGID" Type="Variable" Display="always" Required="false" Mask="false">100</Config>
-<Config Name="PHP Version" Target="PHP_VERS" Default="7.2" Mode="" Description="Set the version of PHP to use (7.2, 7.3 or 7.4)" Type="Variable" Display="always" Required="false" Mask="false">7.2</Config>
+<Config Name="PHP Version" Target="PHP_VERS" Default="7.2" Mode="" Description="Set the version of PHP to use (7.2, 7.3 or 7.4)" Type="Variable" Display="always" Required="false" Mask="false">7.4</Config>
 <Config Name="MySQL Password" Target="DB_PASS" Default="owncloud" Mode="" Description="Container Variable: DB_PASS" Type="Variable" Display="always" Required="false" Mask="false">owncloud</Config>
 <Config Name="AppData Config Path" Target="/config" Default="" Mode="rw" Description="Container Path: /config" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/user/appdata/ownCloud</Config>
 </Container>
