@@ -4,10 +4,10 @@
 <PluginURL>https://raw.githubusercontent.com/dlandon/unassigned.devices/master/unassigned.devices.preclear.plg</PluginURL>
 <PluginAuthor>dlandon</PluginAuthor>
 <Beta>False</Beta>
-<MinVer>6.9</MinVer>
+<MinVer>6.11</MinVer>
 <ExtraSearchTerms>preclear preclear%20disk</ExtraSearchTerms>
 <Category>Tools:System</Category>
-<Date>2022-09-10</Date>
+<Date>2023-11-30</Date>
 <License>GPL Licensed</License>
 <Requires>Unassigned Devices installed</Requires>
 <RequiresFile>/var/log/plugins/unassigned.devices.plg</RequiresFile>
