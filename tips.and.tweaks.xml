@@ -4,9 +4,9 @@
 <PluginURL>https://raw.githubusercontent.com/dlandon/tips.and.tweaks/master/tips.and.tweaks.plg</PluginURL>
 <PluginAuthor>dlandon</PluginAuthor>
 <Beta>False</Beta>
-<MinVer>6.7</MinVer>
+<MinVer>6.11</MinVer>
 <Category>Tools:System</Category>
-<Date>2022-08-19</Date>
+<Date>2023-12-06</Date>
 <License>GPL Licensed</License>
 <multiLanguage>true</multiLanguage>
 <Name>Tips and Tweaks</Name>
