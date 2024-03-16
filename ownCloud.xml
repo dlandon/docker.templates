@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
 <Name>ownCloud</Name>
-<Date>2022-08-19</Date>
+<Date>2023-12-21</Date>
 <Repository>dlandon/owncloud</Repository>
 <Project>https://owncloud.org/</Project>
 <Registry>https://registry.hub.docker.com/u/dlandon//owncloud/</Registry>
@@ -14,7 +14,7 @@
 <PrivilegedReq>true</PrivilegedReq>
 <Support>https://forums.lime-technology.com/topic/57801-support-dlandon-owncloud/#comment-566487</Support>
 <Overview>
-OwnCloud provides universal access to your files via the web, your computer or your mobile devices &#x2014; wherever you are. Mariadb is built into the image. Built with php 7.2, 7.3, and 7.4 (selectable), mariadb 10.3 and nginx 1.18[br]
+OwnCloud provides universal access to your files via the web, your computer or your mobile devices &#x2014; wherever you are. Mariadb is built into the image. Built with php 7.2, 7.3, and 7.4 (selectable), mariadb 10.4 and nginx 1.18[br]
 Configuration
 **/config** - Where ownCloud should store its config files.
 **/data** - Where ownCloud should store its data files.[br]
@@ -26,7 +26,7 @@ Configuration
 <Icon>https://github.com/dlandon/docker.templates/raw/master/owncloud.png</Icon>
 <ExtraParams>--log-opt max-size=50m --log-opt max-file=1 --sysctl=net.core.somaxconn=511</ExtraParams>
 <Description>
-OwnCloud provides universal access to your files via the web, your computer or your mobile devices &#x2014; wherever you are. Mariadb is built into the image. Built with php 7.2, 7.3, and 7.4, mariadb 10.3 and nginx 1.18[br]
+OwnCloud provides universal access to your files via the web, your computer or your mobile devices &#x2014; wherever you are. Mariadb is built into the image. Built with php 7.2, 7.3, and 7.4, mariadb 10.4 and nginx 1.18[br]
 </Description>
 <Networking>
 <Mode>bridge</Mode>
@@ -62,7 +62,7 @@ OwnCloud provides universal access to your files via the web, your computer or y
   <Mode/>
 </Variable>
 <Variable>
-  <Value>7.2</Value>
+  <Value>7.4</Value>
   <Name>PHP_VERS</Name>
   <Mode/>
 </Variable>
