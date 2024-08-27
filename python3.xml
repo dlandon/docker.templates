@@ -4,7 +4,7 @@
 <PluginURL>https://raw.githubusercontent.com/dlandon/python3/master/Python3.plg</PluginURL>
 <PluginAuthor>dlandon</PluginAuthor>
 <Beta>False</Beta>
-<MinVer>6.11</MinVer>
+<MaxVer>6.11</MaxVer>
 <Category>Plugins</Category>
 <Date>2022-08-19</Date>
 <License>GPL Licensed</License>

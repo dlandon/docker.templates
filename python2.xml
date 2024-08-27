@@ -4,7 +4,7 @@
 <PluginURL>https://raw.githubusercontent.com/dlandon/python2/master/Python2.plg</PluginURL>
 <PluginAuthor>dlandon</PluginAuthor>
 <Beta>False</Beta>
-<MinVer>6.11</MinVer>
+<MaxVer>6.11</MaxVer>
 <Category>Plugins</Category>
 <Date>2022-08-23</Date>
 <License>GPL Licensed</License>
