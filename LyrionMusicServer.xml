@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>LyrionMusicServer</Name>
+  <Repository>dlandon/lyrionmusicserver</Repository>
+  <Registry>https://registry.hub.docker.com/r/dlandon/lyrionmusicserver/</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>bash</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.lime-technology.com/topic/56650-support-dlandon-logitech-media-server/</Support>
+  <Project/>
+  <Overview>Lyrion Music Server (formerly SlimServer, SqueezeCenter and Squeezebox Server) is a streaming audio server supported by Logitech (formerly Slim Devices), developed in particular to support their Squeezebox range of digital audio receivers.&#xD;
+&#xD;
+  Configuration:&#xD;
+  **/config** - this path is used to store the configuration and the database files of Lyrion Music Server.&#xD;
+  **/music** - set this path to where you store your music files.</Overview>
+  <Category>MediaServer:Music</Category>
+  <WebUI>http://[IP]:[PORT:9000]/</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/dlandon/docker.templates/master/LyrionMusicServer.xml</TemplateURL>
+  <Icon>https://github.com/dlandon/docker.templates/raw/master/logitechmediaserver.png</Icon>
+  <ExtraParams>--log-opt max-size=50m --log-opt max-file=1</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1733441072</DateInstalled>
+  <DonateText>For my retirement.</DonateText>
+  <DonateLink>https://www.paypal.com/us/cgi-bin/webscr?cmd=_s-xclick&amp;amp;hosted_button_id=EJGPC7B5CS66E</DonateLink>
+  <Requires/>
+  <Config Name="WebUI Port" Target="9000" Default="9000" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">9000</Config>
+  <Config Name="Control Port - TCP" Target="3483" Default="3483" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">3483</Config>
+  <Config Name="Control Port - UDP" Target="3483" Default="3483" Mode="udp" Description="" Type="Port" Display="always" Required="true" Mask="false">3483</Config>
+  <Config Name="CLI Port" Target="9090" Default="9090" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">9090</Config>
+  <Config Name="Music Path" Target="/music" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/Music/</Config>
+  <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">99</Config>
+  <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">100</Config>
+  <Config Name="AppData Config Path" Target="/config" Default="/mnt/cache/appdata/LyrionMusicServer" Mode="rw" Description="" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/cache/appdata/LyrionMusicServer</Config>
+</Container>
