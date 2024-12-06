@@ -2,6 +2,7 @@
 <Container version="2">
   <Name>LyrionMusicServer</Name>
   <Repository>dlandon/lyrionmusicserver</Repository>
+  <Date>2024-12-05</Date>
   <Registry>https://registry.hub.docker.com/r/dlandon/lyrionmusicserver/</Registry>
   <Network>bridge</Network>
   <MyIP/>
@@ -9,16 +10,16 @@
   <Privileged>false</Privileged>
   <Support>https://forums.unraid.net/topic/181640-support-dlandon-lyrion-music-server/</Support>
   <Project/>
-  <Overview>Lyrion Music Server (formerly SlimServer, SqueezeCenter, Squeezebox Server, and Logitech Media Server) is a streaming audio server, developed in particular to support the Squeezebox range of digital audio receivers.&#xD;
-&#xD;
-  Configuration:&#xD;
-  **/config** - this path is used to store the configuration and the database files of Lyrion Music Server.&#xD;
+  <Overview>Lyrion Music Server (formerly SlimServer, SqueezeCenter, Squeezebox Server, and Logitech Media Server) is a streaming audio server, developed in particular to support the Squeezebox range of digital audio receivers.[br]
+  Configuration:
+  **/config** - this path is used to store the configuration and the database files of Lyrion Music Server.
   **/music** - set this path to where you store your music files.</Overview>
   <Category>MediaServer:Music</Category>
   <WebUI>http://[IP]:[PORT:9000]/</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/dlandon/docker.templates/master/LyrionMusicServer.xml</TemplateURL>
   <Icon>https://github.com/dlandon/docker.templates/raw/master/lyrionmusicserver.png</Icon>
   <ExtraParams>--log-opt max-size=50m --log-opt max-file=1</ExtraParams>
+  <Description>Lyrion Music Server (formerly SlimServer, SqueezeCenter. Squeezebox Server, and Logitech Media Server) is a streaming audio server, developed in particular to support the Squeezebox range of digital audio receivers.</Description>
   <PostArgs/>
   <CPUset/>
   <DonateText>For my retirement.</DonateText>
