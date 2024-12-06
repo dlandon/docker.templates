@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
-  <Support>https://forums.lime-technology.com/topic/56650-support-dlandon-logitech-media-server/</Support>
+  <Support>https://forums.unraid.net/topic/181640-support-dlandon-lyrion-music-server/</Support>
   <Project/>
   <Overview>Lyrion Music Server (formerly SlimServer, SqueezeCenter, Squeezebox Server, and Logitech Media Server) is a streaming audio server, developed in particular to support the Squeezebox range of digital audio receivers.&#xD;
 &#xD;
@@ -17,7 +17,7 @@
   <Category>MediaServer:Music</Category>
   <WebUI>http://[IP]:[PORT:9000]/</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/dlandon/docker.templates/master/LyrionMusicServer.xml</TemplateURL>
-  <Icon>https://github.com/dlandon/docker.templates/raw/master/logitechmediaserver.png</Icon>
+  <Icon>https://github.com/dlandon/docker.templates/raw/master/lyrionmusicserver.png</Icon>
   <ExtraParams>--log-opt max-size=50m --log-opt max-file=1</ExtraParams>
   <PostArgs/>
   <CPUset/>
