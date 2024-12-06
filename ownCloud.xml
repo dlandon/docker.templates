@@ -32,5 +32,5 @@
   <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">100</Config>
   <Config Name="PHP Version" Target="PHP_VERS" Default="7.2" Mode="" Description="Set the version of PHP to use (7.2, 7.3 or 7.4)" Type="Variable" Display="always" Required="false" Mask="false">7.4</Config>
   <Config Name="MySQL Password" Target="DB_PASS" Default="owncloud" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">owncloud</Config>
-  <Config Name="AppData Config Path" Target="/config" Default="" Mode="rw" Description="Container Path: /config" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/user/appdata/ownCloud</Config>
+  <Config Name="AppData Config Path" Target="/config" Default="" Mode="rw" Description="" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/user/appdata/ownCloud</Config>
 </Container>

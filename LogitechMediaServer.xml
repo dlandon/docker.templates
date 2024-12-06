@@ -21,7 +21,6 @@
   <ExtraParams>--log-opt max-size=50m --log-opt max-file=1</ExtraParams>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1733492708</DateInstalled>
   <DonateText>For my retirement.</DonateText>
   <DonateLink>https://www.paypal.com/us/cgi-bin/webscr?cmd=_s-xclick&amp;amp;hosted_button_id=EJGPC7B5CS66E</DonateLink>
   <Requires/>

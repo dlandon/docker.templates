@@ -1,81 +1,40 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>Zoneminder</Name>
-  <Date>2021\2-08-19</Date>
-  <Project>https://zoneminder.com/</Project>
   <Repository>dlandon/zoneminder.unraid</Repository>
   <Registry>https://hub.docker.com/r/dlandon/zoneminder.unraid/</Registry>
-  <DonateText>For my retirement.</DonateText>
-  <DonateLink>https://www.paypal.com/us/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=EJGPC7B5CS66E</DonateLink>
-  <DonateImage>https://www.paypalobjects.com/webstatic/en_US/btn/btn_donate_74x21.png</DonateImage>
   <Network>bridge</Network>
+  <MyIP/>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
   <Support>https://forums.lime-technology.com/topic/56632-support-dlandon-zoneminder-134/</Support>
-  <Overview>
-  Zoneminder is the top Linux video camera security and surveillance solution. ZoneMinder is intended for use in single or multi-camera video security applications, including commercial or home CCTV, theft prevention and child, family member or home monitoring and other domestic care scenarios such as nanny cam installations. It supports capture, analysis, recording, and monitoring of video data coming from one or more video or network cameras attached to a Linux system. ZoneMinder also support web and semi-automatic control of Pan/Tilt/Zoom cameras using a variety of protocols. It is suitable for use as a DIY home video security system and for commercial or professional video security and surveillance. It can also be integrated into a home automation system via X.10 or other protocols. If you're looking for a low cost CCTV system or a more flexible alternative to cheap DVR systems then give ZoneMinder a try.[br]
-  Configuration:
-  **Appdata Config Path** - This is where the configuration and library files will reside
-  **Data Path** - This is where events images/videos will reside
-  **WebUI Port** - Port used to access Zoneminder using ssl security.  Change the desired port for access to the Zoneminder WebUI if necessary.  The default port of 8443 might not be appropriate for your system.
-  **Shared Memory** - Turn on the advanced view and adjust the '--shm-size' in the Extra Parameters to half of your installed memory.
-  **zmNinja Event Notification Server Port** - Port used for zmNinja events to iOS and Android devices.  Change the desired port for the zmNinja Event Notification Server if necessary.  The default port of 9000 might not be appropriate for your system.[br]
-  Click on "Show Docker Allocations" and confirm you do not have a port conflict with other Docker ports.
+  <Project>https://zoneminder.com/</Project>
+  <Overview>&#xD;
+  Zoneminder is the top Linux video camera security and surveillance solution. ZoneMinder is intended for use in single or multi-camera video security applications, including commercial or home CCTV, theft prevention and child, family member or home monitoring and other domestic care scenarios such as nanny cam installations. It supports capture, analysis, recording, and monitoring of video data coming from one or more video or network cameras attached to a Linux system. ZoneMinder also support web and semi-automatic control of Pan/Tilt/Zoom cameras using a variety of protocols. It is suitable for use as a DIY home video security system and for commercial or professional video security and surveillance. It can also be integrated into a home automation system via X.10 or other protocols. If you're looking for a low cost CCTV system or a more flexible alternative to cheap DVR systems then give ZoneMinder a try.&#xD;
+&#xD;
+  Configuration:&#xD;
+  **Appdata Config Path** - This is where the configuration and library files will reside&#xD;
+  **Data Path** - This is where events images/videos will reside&#xD;
+  **WebUI Port** - Port used to access Zoneminder using ssl security.  Change the desired port for access to the Zoneminder WebUI if necessary.  The default port of 8443 might not be appropriate for your system.&#xD;
+  **Shared Memory** - Turn on the advanced view and adjust the '--shm-size' in the Extra Parameters to half of your installed memory.&#xD;
+  **zmNinja Event Notification Server Port** - Port used for zmNinja events to iOS and Android devices.  Change the desired port for the zmNinja Event Notification Server if necessary.  The default port of 9000 might not be appropriate for your system.&#xD;
+&#xD;
+  Click on "Show Docker Allocations" and confirm you do not have a port conflict with other Docker ports.&#xD;
   </Overview>
   <Category>HomeAutomation: MediaApp:Video MediaServer:Video Tools:</Category>
   <WebUI>https://[IP]:[PORT:443]/zm</WebUI>
   <TemplateURL>https://github.com/dlandon/docker.templates/</TemplateURL>
   <Icon>https://github.com/dlandon/docker.templates/raw/master/zoneminder.png</Icon>
   <ExtraParams>--shm-size="5G"</ExtraParams>
-  <Description>
-  Zoneminder is the top Linux video camera security and surveillance solution. ZoneMinder is intended for use in single or multi-camera video security applications, including commercial or home CCTV, theft prevention and child, family member or home monitoring and other domestic care scenarios such as nanny cam installations. It supports capture, analysis, recording, and monitoring of video data coming from one or more video or network cameras attached to a Linux system. ZoneMinder also support web and semi-automatic control of Pan/Tilt/Zoom cameras using a variety of protocols. It is suitable for use as a DIY home video security system and for commercial or professional video security and surveillance. It can also be integrated into a home automation system via X.10 or other protocols. If you're looking for a low cost CCTV system or a more flexible alternative to cheap DVR systems then give ZoneMinder a try.[br]
-  Configuration:
-  Click on "Show Docker Allocations" and confirm you do not have a port conflict with other Docker ports.
-  </Description>
-  <Networking>
-    <Mode>bridge</Mode>
-    <Publish>
-      <Port>
-        <HostPort>8443</HostPort>
-        <ContainerPort>443</ContainerPort>
-        <Protocol>tcp</Protocol>
-      </Port>
-      <Port>
-        <HostPort>9000</HostPort>
-        <ContainerPort>9000</ContainerPort>
-        <Protocol>tcp</Protocol>
-      </Port>
-    </Publish>
-  </Networking>
-  <Data>
-    <Volume type="appdata">
-      <HostDir>/mnt/user/appdata/Zoneminder</HostDir>
-      <ContainerDir>/config</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
-    <Volume>
-      <HostDir>/mnt/user/appdata/Zoneminder/data</HostDir>
-      <ContainerDir>/var/cache/zoneminder</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
-  </Data>
-  <Environment>
-    <Variable>
-      <Value>99</Value>
-      <Name>PUID</Name>
-      <Mode/>
-    </Variable>
-    <Variable>
-      <Value>100</Value>
-      <Name>PGID</Name>
-      <Mode/>
-    </Variable>
-  </Environment>
-  <Labels/>
+  <PostArgs/>
+  <CPUset/>
+  <DonateText>For my retirement.</DonateText>
+  <DonateLink>https://www.paypal.com/us/cgi-bin/webscr?cmd=_s-xclick&amp;amp;hosted_button_id=EJGPC7B5CS66E</DonateLink>
+  <Requires/>
   <Config Name="WebUI Port" Target="443" Default="8443" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">8443</Config>
   <Config Name="zmNinja Event Notification Server Port" Target="9000" Default="9000" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">9000</Config>
   <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">99</Config>
   <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">100</Config>
-  <Config Name="Appdata Config Path" Target="/config" Default="/mnt/cache/appdata/Zoneminder" Mode="rw" Description="" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/cache/appdata/Zoneminder</Config>
+  <Config Name="Appdata Config Path" Target="/config" Default="/mnt/cache/appdata/Zoneminder" Mode="rw" Description="" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/user/appdata/Zoneminder</Config>
   <Config Name="Data Path" Target="/var/cache/zoneminder" Default="/mnt/user/zoneminder_data" Mode="rw" Description="" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/user/appdata/Zoneminder/data</Config>
 </Container>
