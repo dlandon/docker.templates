@@ -31,5 +31,5 @@
   <Config Name="Music Path" Target="/music" Default="" Mode="rw" Description="Set the music path to your server." Type="Path" Display="always" Required="true" Mask="false"></Config>
   <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">99</Config>
   <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">100</Config>
-  <Config Name="AppData Config Path" Target="/config" Default="/mnt/cache/appdata/LyrionMusicServer" Mode="rw" Description="" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/cache/appdata/LyrionMusicServer</Config>
+  <Config Name="AppData Config Path" Target="/config" Default="/mnt/user/appdata/LyrionMusicServer" Mode="rw" Description="" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/user/appdata/LyrionMusicServer</Config>
 </Container>
