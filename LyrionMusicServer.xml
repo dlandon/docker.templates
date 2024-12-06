@@ -17,7 +17,7 @@
   <Category>MediaServer:Music</Category>
   <WebUI>http://[IP]:[PORT:9000]/</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/dlandon/docker.templates/master/LyrionMusicServer.xml</TemplateURL>
-  <Icon>https://github.com/dlandon/docker.templates/raw/master/lyrionmusicserver.png</Icon>
+  <Icon>https://github.com/dlandon/docker.templates/raw/master/logitechmediaserver.png</Icon>
   <ExtraParams>--log-opt max-size=50m --log-opt max-file=1</ExtraParams>
   <PostArgs/>
   <CPUset/>
