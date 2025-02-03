@@ -6,7 +6,7 @@
 <Beta>False</Beta>
 <MinVer>6.11</MinVer>
 <Category>Tools:System</Category>
-<Date>2023-11-30</Date>
+<Date>2024-04-01</Date>
 <License>GPL Licensed</License>
 <Requires>Unassigned Devices installed</Requires>
 <RequiresFile>/var/log/plugins/unassigned.devices.plg</RequiresFile>

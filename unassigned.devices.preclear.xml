@@ -7,7 +7,7 @@
 <MinVer>6.11</MinVer>
 <ExtraSearchTerms>preclear preclear%20disk</ExtraSearchTerms>
 <Category>Tools:System</Category>
-<Date>2023-11-30</Date>
+<Date>2025-01-29</Date>
 <License>GPL Licensed</License>
 <Requires>Unassigned Devices installed</Requires>
 <RequiresFile>/var/log/plugins/unassigned.devices.plg</RequiresFile>
