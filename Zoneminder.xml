@@ -25,7 +25,7 @@
   <WebUI>https://[IP]:[PORT:443]/zm</WebUI>
   <TemplateURL>https://github.com/dlandon/docker.templates/</TemplateURL>
   <Icon>https://github.com/dlandon/docker.templates/raw/master/zoneminder.png</Icon>
-  <ExtraParams>--shm-size="5G"</ExtraParams>
+  <ExtraParams>--shm-size="1G"</ExtraParams>
   <PostArgs/>
   <CPUset/>
   <DonateText>For my retirement.</DonateText>
