@@ -9,11 +9,15 @@
   <Privileged>false</Privileged>
   <Support>https://forums.unraid.net/topic/181640-support-dlandon-lyrion-music-server/</Support>
   <Project/>
-  <Overview>Lyrion Music Server (formerly SlimServer, SqueezeCenter, Squeezebox Server, and Logitech Media Server) is a streaming audio server, developed in particular to support the Squeezebox range of digital audio receivers.&#xD;
-&#xD;
-  Configuration:&#xD;
-  **/config** - this path is used to store the configuration and the database files of Lyrion Music Server.&#xD;
-  **/music** - set this path to where you store your music files.</Overview>
+  <ReadMe/>
+  <Overview>Lyrion Music Server (formerly SlimServer, SqueezeCenter, Squeezebox Server, and Logitech Media Server) is a streaming audio server, developed in particular to support the Squeezebox range of digital audio receivers.&#13;
+&#13;
+  Configuration:&#13;
+  **/config** - this path is used to store the configuration and the database files of Lyrion Music Server.&#13;
+  **/music** - set this path to where you store your music files.&#13;
+&#13;
+Protect Settings Pages (LAN-only):&#13;
+**LMS_PROTECT_SETTINGS** - When enabled (1), LMS blocks /settings/* unless the client is on the local network/localhost. Docker bridge, reverse proxies, and Tailscale/VPN can make clients look &#x2018;remote&#x2019; and trigger 403. Set to 0 to disable.</Overview>
   <Category>MediaServer:Music</Category>
   <WebUI>http://[IP]:[PORT:9000]/</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/dlandon/docker.templates/master/LyrionMusicServer.xml</TemplateURL>
@@ -21,6 +25,7 @@
   <ExtraParams>--log-opt max-size=50m --log-opt max-file=1</ExtraParams>
   <PostArgs/>
   <CPUset/>
+  <DateInstalled>1769473310</DateInstalled>
   <DonateText>For my retirement.</DonateText>
   <DonateLink>https://www.paypal.com/us/cgi-bin/webscr?cmd=_s-xclick&amp;amp;hosted_button_id=EJGPC7B5CS66E</DonateLink>
   <Requires/>
@@ -28,8 +33,10 @@
   <Config Name="Control Port - TCP" Target="3483" Default="3483" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">3483</Config>
   <Config Name="Control Port - UDP" Target="3483" Default="3483" Mode="udp" Description="" Type="Port" Display="always" Required="true" Mask="false">3483</Config>
   <Config Name="CLI Port" Target="9090" Default="9090" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">9090</Config>
-  <Config Name="Music Path" Target="/music" Default="" Mode="rw" Description="Set the music path to your server." Type="Path" Display="always" Required="true" Mask="false"></Config>
+  <Config Name="Music Path" Target="/music" Default="" Mode="rw" Description="Set the music path to your server." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/Music/</Config>
   <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">99</Config>
   <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">100</Config>
-  <Config Name="AppData Config Path" Target="/config" Default="/mnt/user/appdata/LyrionMusicServer" Mode="rw" Description="" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/user/appdata/LyrionMusicServer</Config>
+  <Config Name="AppData Config Path" Target="/config" Default="/mnt/cache/appdata/LyrionMusicServer" Mode="rw" Description="" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/cache/appdata/LyrionMusicServer</Config>
+  <Config Name="Protect Settings Pages (LAN-only)" Target="LMS_PROTECT_SETTINGS" Default="1" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="false" Mask="false">1</Config>
+  <TailscaleStateDir/>
 </Container>
