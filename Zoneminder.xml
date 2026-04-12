@@ -16,7 +16,7 @@
   **Appdata Config Path** - This is where the configuration and library files will reside&#xD;
   **Data Path** - This is where events images/videos will reside&#xD;
   **WebUI Port** - Port used to access Zoneminder using ssl security.  Change the desired port for access to the Zoneminder WebUI if necessary.  The default port of 8443 might not be appropriate for your system.&#xD;
-  **Shared Memory** - Turn on the advanced view and adjust the '--shm-size' in the Extra Parameters to half of your installed memory.&#xD;
+  **Shared Memory** - Turn on the advanced view and adjust the '--shm-size' in the Extra Parameters.&#xD;
   **zmNinja Event Notification Server Port** - Port used for zmNinja events to iOS and Android devices.  Change the desired port for the zmNinja Event Notification Server if necessary.  The default port of 9000 might not be appropriate for your system.&#xD;
 &#xD;
   Click on "Show Docker Allocations" and confirm you do not have a port conflict with other Docker ports.&#xD;
