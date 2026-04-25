@@ -32,4 +32,5 @@
   <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">100</Config>
   <Config Name="MySQL Password" Target="DB_PASS" Default="owncloud" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">owncloud</Config>
   <Config Name="AppData Config Path" Target="/config" Default="/mnt/user/appdata/ownCloud" Mode="rw" Description="" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/user/appdata/ownCloud</Config>
+  <Config Name="Auto OS Updates" Target="AUTO_OS_UPDATES" Default="1" Mode="" Description="When set to 1, OS and Package updates will be done on every restart." Type="Variable" Display="advanced-hide" Required="false" Mask="false">1</Config>
 </Container>
